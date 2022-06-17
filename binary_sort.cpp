@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-// shut up stupid man
+// shut up stupid mana asdadsa
 
 using namespace std;
 
