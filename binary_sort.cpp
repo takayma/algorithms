@@ -1,8 +1,6 @@
 #include <iostream>
 #include <vector>
 
-// shut up stupid mana asdadsa
-
 using namespace std;
 
 vector<int> binary_sort(vector<int> arr) {
