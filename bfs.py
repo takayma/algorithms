@@ -20,8 +20,8 @@ def bfs(l, start):
 
 		i += 1
 
-	print(a)
-
 	return b
 
-print(bfs(l, 1))
+c = bfs(l, 1)
+for i in sorted(c):
+	print(f'{i}: {c[i]}')
