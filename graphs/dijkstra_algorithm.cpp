@@ -1,5 +1,3 @@
-//This algorithm is for graphs not for fields
-
 #include <iostream>
 #include <vector>
 #include <cmath>

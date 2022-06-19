@@ -1,6 +1,4 @@
-#This algorithm is for graphs not for fields
-
-l = [[],		#0, but there isn`t
+l = [[],		#0, которого нет
 	[2, 3, 4],	#1
 	[1],		#2
 	[1, 7, 8],	#3
