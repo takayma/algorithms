@@ -1,4 +1,6 @@
 /.vscode
+
+
 /sort/binary_sort/binary_sort.exe
 /sort/binary_sort/binary_sort.o
 /sort/bubble_sort/bubble_sort.exe
@@ -12,5 +14,6 @@
 /graphs/dijkstra_algorithm/dijkstra_algorithm.exe
 /graphs/dijkstra_algorithm/dijkstra_algorithm.o
 
-/binary_search.exe
-/binary_search.0
+
+/search/binary_search/binary_search.exe
+/search/binary_search/binary_search.o
