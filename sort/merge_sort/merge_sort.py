@@ -36,7 +36,3 @@ def merge_sort(a):
             _arr = []
 
     return arr[0]
-
-
-arr = [1, -1, 3, 9, 0, 0, 4, 2, -5]
-print(merge_sort(arr))
