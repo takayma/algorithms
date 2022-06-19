@@ -4,4 +4,5 @@ def bubble_sort(a):
         for j in range(len(arr) - i):
             if arr[j] > arr[j + 1]:
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
+
     return arr

@@ -1,6 +1,6 @@
 import unittest
 import random
-from sort.bubble_sort.bubble_sort import bubble_sort as srt
+from sort.insertion_sort.insertion_sort import insertion_sort as srt
 
 
 class Test(unittest.TestCase):

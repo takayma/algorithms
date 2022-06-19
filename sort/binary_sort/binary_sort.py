@@ -11,4 +11,5 @@ def binary_sort(a):
             left.append(x)
         else:
             right.append(x)
+
     return binary_sort(left) + [mid] + binary_sort(right)
