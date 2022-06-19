@@ -28,9 +28,7 @@ vector<int> binary_sort(vector<int> arr) {
 }
 
 int main() {
-    vector<int> arr{1, -1, 3, 9, 0, 0, 4, 2, -5};
+    vector<int> arr {1, -1, 3, 9, 0, 0, 4, 2, -5};
     arr = binary_sort(arr);
-    for (int x : arr) {
-        cout << x << ' ';
-    }
+    for (auto x : arr) cout << x << ' ';
 }

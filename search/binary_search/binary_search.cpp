@@ -1,19 +1,18 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <cmath>
 
 using namespace std;
 
 int binary_search (vector<int> arr, int key) {
-    int l = arr.size() / 2;
-    int i = l;
+    int x = arr.size() / 2;
+    int i = x;
     while (arr[i] != key) {
-        l /= 2;
+        x /= 2;
         if (arr[i] > key) {
-            i -= max(l, 1);
+            i -= max(x, 1);
         } else {
-            i += max(l, 1);
+            i += max(x, 1);
         }
     }
     return i;
@@ -25,6 +24,5 @@ int main () {
     for (auto x : arr) cout << x << ' ';
     cout << endl;
     int x = 9;
-    int i = binary_search(arr, x);
-    cout << i << endl;
+    cout << binary_search(arr, x) << endl;
 }

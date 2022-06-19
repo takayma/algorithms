@@ -25,7 +25,6 @@ int main () {
                 {-1, 4, 4, -1, 2, 6},
                 {-1, 5, 6, 2, -1, 3},
                 {-1, -1, -1, 6, 3, -1}};
-    vector<int> a = dijkstra_algorithm(matrix, 1);
-    for (auto x : a) cout << x << ' ';
+    for (auto x : dijkstra_algorithm(matrix, 1)) cout << x << ' ';
     cout << endl;
 }
