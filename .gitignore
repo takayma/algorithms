@@ -7,10 +7,10 @@
 /sort/merge_sort/merge_sort.o
 
 
-/graphs/bfs.exe
-/graphs/bfs.o
-/graphs/dijkstra_algorithm.exe
-/graphs/dijkstra_algorithm.o
+/graphs/breadth_first_search/breadth_first_search.exe
+/graphs/breadth_first_search/breadth_first_search.o
+/graphs/dijkstra_algorithm/dijkstra_algorithm.exe
+/graphs/dijkstra_algorithm/dijkstra_algorithm.o
 
 /binary_search.exe
 /binary_search.0
