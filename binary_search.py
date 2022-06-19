@@ -15,4 +15,4 @@ def binary_search(arr, key):
 	return i
 
 i = binary_search(a, x)
-print(i, a[i], x)
+print(i)
