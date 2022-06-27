@@ -1,6 +1,6 @@
 import unittest
 import random
-from sort.insertion_sort.insertion_sort import insertion_sort as srt
+from sort.selection_sort.selection_sort import selection_sort as srt
 
 
 class Test(unittest.TestCase):

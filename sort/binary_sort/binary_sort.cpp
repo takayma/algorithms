@@ -23,6 +23,7 @@ vector<int> binary_sort(vector<int> arr) {
 
         left.push_back(arr[mid]);
         left.insert(left.end(), right.begin(), right.end());
+        
         return left;
     }
 }

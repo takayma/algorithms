@@ -10,6 +10,7 @@ vector<int> insertion_sort (vector<int> arr) {
         arr.insert(arr.begin() + j, arr[i]);
         arr.erase(arr.begin() + i + 1);
     }
+    
     return arr;
 }
 
